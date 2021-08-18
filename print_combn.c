@@ -1,9 +1,9 @@
 #include <unistd.h>
 
-void					   put_int(int i);
-void				   print_combn(int n);
-int		 increment(int int_list[], int n);
-int		 get_index(int int_list[], int n);
+void			   put_int(int i);
+void		       print_combn(int n);
+int	 increment(int int_list[], int n);
+int	 get_index(int int_list[], int n);
 void	 print_int(int int_list[], int n);
 
 
