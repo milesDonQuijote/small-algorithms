@@ -1,3 +1,15 @@
+/*
+
+Combining array numbers with size from 1 to 9.
+For example, if you specify 9, an array wit a size of 9 numbers should be created.
+The minimum and maximum of each element depends on its queue in the array.
+For example the minimum is  equal to the index in the array.
+The determination of the maximum starts from the end, i.e. the maximum of the last element is always 9 and decreases by one value.
+Example:
+Given -> 3 initial array = [0, 1, 2] -> expected = [7, 8, 9]
+
+*/
+
 #include <unistd.h>
 
 void			   put_int(int i);
